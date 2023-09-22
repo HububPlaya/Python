@@ -1,8 +1,7 @@
-"""
-This is the sume of three problem
 
-where we have some dictionary or list nums, where we need to find three elements that equal the target
-"""
+#This is the sume of three problem
+
+#where we have some dictionary or list nums, where we need to find three elements that equal the target
 # ex1:
 
 
@@ -26,4 +25,4 @@ def three_sum(nums, target):
             else:
                 high -= 1
     
-    return False
+        return False
