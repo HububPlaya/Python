@@ -34,7 +34,7 @@ def shout_strings(*args):
 
 shout_strings('Working on', 'learning', 'argument unpacking!')
 
-m# make a function that shortens words to 8 characters 
+# make a function that shortens words to 8 characters 
 
 #length and loop through the args 
 # the colon with brackets means it creates a substring up to the but not including the length
@@ -42,7 +42,7 @@ def truncate_sentence(length, *words):
     for word in words:
         print(word[:length])
 
-truncate_sentence(8, "I love the park", "I love school so much")
+truncate_sentence(8, "I love the park", "I love school so much") 
 
 # Create a dictionary of tables 1 - 7 that holds the name, Vip_status, and order
 tables = {
